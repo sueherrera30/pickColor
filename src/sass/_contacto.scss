@@ -1,0 +1,32 @@
+.contacto {
+    text-align: center;
+    background-color: $azul;
+    &__titulo{
+        color: #fff;
+    }
+    &__subtitulo{
+        @extend .contacto__titulo;
+    }
+    &__parrafo{
+        color: $grisClaro;
+        &--textoNaranja{
+            color: $naranja;
+        }
+    }
+    &__formulario{
+        width: 100%;
+        &--text{
+            width: 100%;
+        }
+        &--textarea{
+            width: 100%;
+        }
+        &--boton{
+            background-color: $grisObscuro;
+            color: #fff;
+        }
+    }
+    &__required{
+        color: #fff;
+    }
+}
