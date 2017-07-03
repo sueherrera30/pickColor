@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.templateRow{
+  content: " ";
+  display: table;
+}
+
+.row{
+  &:before{
+       @extend .templateRow;
+   }
+  &:after {
+      @extend .templateRow;
+      clear:both;
+}
+}
+
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left;
+}
+
+@function anchoColumnas($numColumnas){
+  @return percentage(($numColumnas/12));
+}
+
+@for $numColumna from 1 through 12{
+    .col-#{$numColumna}{
+      width: anchoColumnas($numColumna);
+    }
+ }
+
+
+
+
+
