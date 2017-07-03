@@ -1,32 +1,67 @@
 .contacto {
+    padding-top: 100px;
     text-align: center;
     background-color: $azul;
+    @include flex-row;
+    align-content: center;
+    font-family: $roboto;
+    &__col{
+        @include flex-column;
+        align-items: center;
+    }
     &__titulo{
+        align-items: flex-start;
         color: #fff;
+        font-size: $tituloTam;
+        margin: 15px 0;
     }
     &__subtitulo{
-        @extend .contacto__titulo;
+        color: #fff;
+        font-size: $indiceTam;
+        margin-bottom: 35px;
     }
     &__parrafo{
         color: $grisClaro;
+        font-size: $texto;
+        font-style: $italic;
         &--textoNaranja{
+            margin: 7px 0 40px 0;
             color: $naranja;
+            font-style: normal;
         }
     }
     &__formulario{
+        @include flex-column;
+        align-items: center;
         width: 100%;
+        margin: 170px 0 10px 0;
         &--text{
+            padding: 5px;
+            margin: -5px;
             width: 100%;
         }
         &--textarea{
-            width: 100%;
+            @extend .contacto__formulario--text;
         }
         &--boton{
             background-color: $grisObscuro;
             color: #fff;
+            border: 0;
+            padding: 7px 10px;
+            font-size: $texto;
         }
     }
     &__required{
+        position: relative;
+        left: -250px;
         color: #fff;
+        font-size: $texto;
+        margin-bottom: 125px;
+    }
+    &__separator{
+        width: 17%;
+        height: 2px;
+        background-color: $grisClaro;
+        margin: 10px 0 15px 0;
     }
 }
