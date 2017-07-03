@@ -20,7 +20,7 @@
   padding: 12px;
   float: left; }
 
-.col-1, .bloque-precios__linea {
+.col-1, .color-sec__linea, .bloque-precios__linea {
   width: 8.33333%; }
 
 .col-2, .bloque-about-us__linea {
@@ -131,6 +131,80 @@
     font-family: "Roboto";
     margin-top: 3%;
     margin-left: 1%; }
+
+.color-sec {
+  text-align: center; }
+  .color-sec h1 {
+    font-family: "Roboto";
+    font-size: 2em;
+    color: #443e44; }
+  .color-sec__linea {
+    padding: 0.03em;
+    background-color: white; }
+  .color-sec__linea--gris {
+    background-color: #443e44 !important; }
+  .color-sec__division {
+    clear: both;
+    margin-bottom: 70px; }
+  .color-sec__cuadro, .color-sec__cuadro--color1, .color-sec__cuadro--color2, .color-sec__cuadro--color3, .color-sec__cuadro--color4, .color-sec__cuadro--color5, .color-sec__cuadro--color6, .color-sec__cuadro--color7, .color-sec__cuadro--color8, .color-sec__cuadro--color9, .color-sec__cuadro--color10, .color-sec__cuadro--color11, .color-sec__cuadro--color12, .color-sec__cuadro--color13, .color-sec__cuadro--color14, .color-sec__cuadro--color15, .color-sec__cuadro--color16, .color-sec__cuadro--color17, .color-sec__cuadro--color18, .color-sec__cuadro--color19, .color-sec__cuadro--color20, .color-sec__cuadro--color21, .color-sec__cuadro--color22, .color-sec__cuadro--color23, .color-sec__cuadro--color24, .color-sec__cuadro--color25 {
+    height: 120px;
+    float: left;
+    margin-bottom: 8px; }
+  .color-sec__cuadro--color1 {
+    background-color: #69d2e7; }
+  .color-sec__cuadro--color2 {
+    background-color: #a7dbdb; }
+  .color-sec__cuadro--color3 {
+    background-color: #E0E4CC; }
+  .color-sec__cuadro--color4 {
+    background-color: #F38630; }
+  .color-sec__cuadro--color5 {
+    background-color: #FA6900; }
+  .color-sec__cuadro--color6 {
+    background-color: #E94C6F; }
+  .color-sec__cuadro--color7 {
+    background-color: #542733; }
+  .color-sec__cuadro--color8 {
+    background-color: #5A6A62; }
+  .color-sec__cuadro--color9 {
+    background-color: #C6D5CD; }
+  .color-sec__cuadro--color10 {
+    background-color: #FDF200; }
+  .color-sec__cuadro--color11 {
+    background-color: #DB3340; }
+  .color-sec__cuadro--color12 {
+    background-color: #E8B71A; }
+  .color-sec__cuadro--color13 {
+    background-color: #F7EAC8; }
+  .color-sec__cuadro--color14 {
+    background-color: #1FDA9A; }
+  .color-sec__cuadro--color15 {
+    background-color: #28ABE3; }
+  .color-sec__cuadro--color16 {
+    background-color: #588C73; }
+  .color-sec__cuadro--color17 {
+    background-color: #F2E394; }
+  .color-sec__cuadro--color18 {
+    background-color: #F2AE72; }
+  .color-sec__cuadro--color19 {
+    background-color: #D96459; }
+  .color-sec__cuadro--color20 {
+    background-color: #8C4646; }
+  .color-sec__cuadro--color21 {
+    background-color: #D0C91F; }
+  .color-sec__cuadro--color22 {
+    background-color: #85C4B9; }
+  .color-sec__cuadro--color23 {
+    background-color: #008BBA; }
+  .color-sec__cuadro--color24 {
+    background-color: #DF514C; }
+  .color-sec__cuadro--color25 {
+    background-color: #DC403B; }
+  .color-sec__text {
+    margin-top: 10px;
+    color: #443e44;
+    font-family: "Roboto Condensed";
+    font-size: 1.2em; }
 
 .bloque-verde {
   background-color: #27ad60; }
