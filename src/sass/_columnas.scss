@@ -38,8 +38,8 @@
       width: anchoColumnas($numColumna);
     }
  }
-
-
-
-
-
+ @for $numColumna from 1 through 12{
+  .col-#{$numColumna}-offset{
+    margin-left: anchoDeColumnas($numColumna);
+  }
+}
