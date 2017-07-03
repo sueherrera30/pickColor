@@ -8,11 +8,11 @@
   max-width: 1200px;
   margin: 0 auto; }
 
-.templateRow, .row:before, .bloque-precios__ofertas:before, .contacto:before, .row:after, .bloque-precios__ofertas:after, .contacto:after {
+.templateRow, .row:before, .contacto:before, .row:after, .contacto:after {
   content: " ";
   display: table; }
 
-.row:after, .bloque-precios__ofertas:after, .contacto:after {
+.row:after, .contacto:after {
   clear: both; }
 
 [class*="col-"] {
@@ -23,13 +23,13 @@
 .col-1, .color-sec__linea, .bloque-precios__linea {
   width: 8.33333%; }
 
-.col-2 {
+.col-2, .bloque-about-us__linea {
   width: 16.66667%; }
 
-.col-3 {
+.col-3, .bloque-ofertas__elemento-oferta {
   width: 25%; }
 
-.col-4 {
+.col-4, .bloque-ofertas__elemento-oferta--descripcion-boton span a {
   width: 33.33333%; }
 
 .col-5 {
@@ -50,7 +50,7 @@
 .col-10 {
   width: 83.33333%; }
 
-.col-11 {
+.col-11, .bloque-precios__ofertas {
   width: 91.66667%; }
 
 .col-12 {
@@ -227,14 +227,67 @@
     background-color: white; }
   .bloque-precios__descripcion {
     font-size: 0.8em;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto";
     padding: 1em;
     color: white; }
   .bloque-precios__ofertas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: white; }
+    min-height: 10vh;
+    padding-top: 4em;
+    padding-bottom: 4em; }
+
+.bloque-ofertas, .bloque-ofertas__elemento-oferta--precio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .bloque-ofertas__elemento-oferta {
+    border: aqua solid .03em;
+    margin: 0em .5em;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white; }
+    .bloque-ofertas__elemento-oferta--precio {
+      background-color: #27ad60;
+      align-content: flex-start;
+      min-height: 6em; }
+      .bloque-ofertas__elemento-oferta--precio .precioTitulo {
+        font-size: 2em;
+        font-family: "Roboto"; }
+        .bloque-ofertas__elemento-oferta--precio .precioTitulo span {
+          font-size: 0.4em; }
+    .bloque-ofertas__elemento-oferta--descripcion {
+      padding: 1em;
+      text-transform: capitalize;
+      font-size: 0.8em; }
+      .bloque-ofertas__elemento-oferta--descripcion-azul {
+        color: #2c3e50;
+        background-color: white; }
+      .bloque-ofertas__elemento-oferta--descripcion-boton {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
+        padding: 4em 0; }
+        .bloque-ofertas__elemento-oferta--descripcion-boton span a {
+          text-decoration: none;
+          padding: .5em;
+          color: white;
+          background-color: #443e44; }
+
+.borde--naranja {
+  border: solid #e67e22 0.1em; }
+
+.margin--bot {
+  margin-bottom: 6em; }
+
+.tituloPrecio {
+  font-family: "Roboto";
+  font-weight: lighter;
+  padding: 1em;
+  color: #c1c1bb;
+  font-size: 0.81818em;
+  text-transform: uppercase; }
 
 .contacto {
   padding-top: 100px;
@@ -295,5 +348,32 @@
     height: 2px;
     background-color: #c1c1bb;
     margin: 10px 0 15px 0; }
+
+.bloque-about-us {
+  background-color: #2c3e50; }
+  .bloque-about-us__titulo {
+    font-family: "Roboto";
+    font-size: 2em;
+    text-align: center;
+    color: white; }
+  .bloque-about-us__linea {
+    padding: 0.03em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1%; }
+  .bloque-about-us__texto {
+    color: white;
+    padding: 5%;
+    font-family: "Roboto"; }
+
+.contenedor-about-Img {
+  width: 40%;
+  height: 40%; }
+  .contenedor-about-Img__img {
+    width: 100%;
+    height: 100%; }
 
 /*# sourceMappingURL=main.css.map */

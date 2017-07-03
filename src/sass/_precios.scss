@@ -17,12 +17,83 @@
   }
   &__descripcion{
     font-size: $texto ;
-    font-family: $codensed;
+    font-family: $roboto;
     padding: 1em;
     color: $blanco ;
   }
   &__ofertas{
-    @include flex-row;
-    background-color: $blanco ;
+    @extend .col-11 ;
+    min-height: 10vh;
+    padding-top: 4em;
+    padding-bottom: 4em;
   }
+
+}
+.bloque-ofertas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  &__elemento-oferta{
+    border: aqua solid .03em;
+    @extend .col-3 ;
+    margin: 0em .5em;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: $blanco ;
+    &--precio{
+      @extend .bloque-ofertas ;
+      background-color: $verde ;
+      align-content: flex-start;
+      min-height: 6em;
+      .precioTitulo{
+        font-size: $tituloTam ;
+        font-family: $roboto ;
+        span{
+          font-size: $enlace/3 ;
+        }
+      }
+    }
+    &--descripcion{
+      padding: 1em;
+      text-transform: capitalize;
+      font-size: $texto;
+      &-azul{
+        color: $azul ;
+        background-color: $blanco ;
+      }
+      &-boton{
+        @include flex-column;
+        justify-content: center;
+        align-items: center;
+        padding:4em 0;
+        span{
+          a{
+            text-decoration: none;
+            @extend .col-4 ;
+            padding: .5em;
+            color: $blanco;
+            background-color: $grisObscuro;
+          }
+
+        }
+      }
+     }
+
+  }
+}
+.borde--naranja{
+  border: solid $naranja .1em;
+}
+.margin--bot{
+  margin-bottom: 6em;
+}
+.tituloPrecio{
+  font-family: $roboto;
+  font-weight: lighter;
+  padding: 1em;
+  color: $grisClaro;
+  font-size: $subtituloTam/2.2;
+  text-transform: uppercase;
+
 }
