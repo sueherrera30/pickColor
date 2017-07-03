@@ -1,0 +1,28 @@
+.bloque-precios{
+  min-height: 70vh;
+  background-color: $azul;
+  @include flex-column;
+  align-items: center;
+  &__titulo{
+    color: $blanco ;
+    padding: 1em;
+    text-transform: uppercase;
+    font-family: $roboto;
+    font-size: $tituloTam ;
+  }
+  &__linea{
+    @include linea ;
+    @extend .col-1 ;
+
+  }
+  &__descripcion{
+    font-size: $texto ;
+    font-family: $codensed;
+    padding: 1em;
+    color: $blanco ;
+  }
+  &__ofertas{
+    @include flex-row;
+    background-color: $blanco ;
+  }
+}

@@ -8,11 +8,11 @@
   max-width: 1200px;
   margin: 0 auto; }
 
-.templateRow, .row:before, .row:after {
+.templateRow, .row:before, .bloque-precios__ofertas:before, .row:after, .bloque-precios__ofertas:after {
   content: " ";
   display: table; }
 
-.row:after {
+.row:after, .bloque-precios__ofertas:after {
   clear: both; }
 
 [class*="col-"] {
@@ -20,7 +20,7 @@
   padding: 12px;
   float: left; }
 
-.col-1 {
+.col-1, .bloque-precios__linea {
   width: 8.33333%; }
 
 .col-2 {
@@ -57,7 +57,9 @@
   width: 100%; }
 
 .navbar {
-  background-color: #27ad60; }
+  background-color: #27ad60;
+  width: 100%;
+  height: 100px; }
   .navbar img {
     margin-top: 7%;
     margin-left: 30%; }
@@ -68,5 +70,80 @@
       color: white;
       margin-top: 5%;
       margin-left: 7%; }
+.home {
+  width: 102%;
+  height: 300px; }
+  .home img {
+    width: 100%;
+    height: 300px;
+    margin-top: -2%;
+    margin-left: -1%; }
+  .home h1 {
+    margin-top: -19%;
+    margin-left: 4%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Roboto";
+    letter-spacing: 1.5px; }
+  .home h6 {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Roboto";
+    margin-top: 3%;
+    margin-left: 1%; }
+
+.bloque-verde {
+  background-color: #27ad60; }
+.contacto {
+  text-align: center;
+  background-color: #2c3e50; }
+  .contacto__titulo, .contacto__subtitulo {
+    color: #fff; }
+  .contacto__parrafo {
+    color: #c1c1bb; }
+    .contacto__parrafo--textoNaranja {
+      color: #e67e22; }
+  .contacto__formulario {
+    width: 100%; }
+    .contacto__formulario--text {
+      width: 100%; }
+    .contacto__formulario--textarea {
+      width: 100%; }
+    .contacto__formulario--boton {
+      background-color: #443e44;
+      color: #fff; }
+  .contacto__required {
+    color: #fff; }
+
+
+.bloque-precios {
+  min-height: 70vh;
+  background-color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+  .bloque-precios__titulo {
+    color: white;
+    padding: 1em;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 2em; }
+  .bloque-precios__linea {
+    padding: 0.03em;
+    background-color: white; }
+  .bloque-precios__descripcion {
+    font-size: 0.8em;
+    font-family: "Roboto Condensed";
+    padding: 1em;
+    color: white; }
+  .bloque-precios__ofertas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white; }
 
 /*# sourceMappingURL=main.css.map */
