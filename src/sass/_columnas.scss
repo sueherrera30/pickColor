@@ -40,6 +40,6 @@
  }
  @for $numColumna from 1 through 12{
   .col-#{$numColumna}-offset{
-    margin-left: anchoDeColumnas($numColumna);
+    margin-left: anchoColumnas($numColumna);
   }
 }

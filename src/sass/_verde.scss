@@ -1,3 +1,40 @@
+
 .bloque-verde{
 	background-color: $verde;
+	text-align: center;
+	color: $blanco;
+		&__contenido{
+			padding: 1em;
+			&--titulo{
+				text-align: center;
+				font-family: $roboto;
+				font-size: $tituloTam;
+			}
+			&--subtitulo{
+				font-size: $subtituloTam;
+			}
+			&--texto{
+				color: $grisClaro;
+				font-family: $roboto;
+			}
+		}
+		&__imagen{
+			padding: $enlace;
+			&--fondo{
+				background-image: url(../img/icon-bg.png);
+			}
+			&--tamanio{
+
+			}
+		}
+		&__boton{
+			padding: $texto;
+			background-color: $grisObscuro;
+			margin-top: $tituloTam;
+			border: none;
+			color: $blanco;
+		}
+			&--parte2{
+				margin-bottom: 5em;
+			}
 }
