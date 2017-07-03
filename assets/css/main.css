@@ -1,25 +1,22 @@
 /*
-Error: Undefined variable: "$blanco".
-        on line 7 of src/sass/_precios.scss
+Error: Undefined mixin 'linea'.
+        on line 14 of src/sass/_precios.scss, in `linea'
+        from line 14 of src/sass/_precios.scss
         from line 8 of src/sass/main.scss
 
-2: @import 'color';
-3: @import 'fonts';
-4: @import 'mixin';
-5: @import 'header';
-6: @import 'color-sec';
-7: @import 'verde';
-8: @import 'precios';
 9: @import 'contacto';
 10: @import 'footer';
 11: @import 'about-us';
 
 Backtrace:
-src/sass/_precios.scss:7
+src/sass/_precios.scss:14:in `linea'
+src/sass/_precios.scss:14
 src/sass/main.scss:8
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/script/tree/node.rb:58:in `perform'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:98:in `block in with_mixin'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:98:in `with_mixin'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
@@ -92,4 +89,4 @@ src/sass/main.scss:8
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blanco\".\A         on line 7 of src/sass/_precios.scss\A         from line 8 of src/sass/main.scss\A \A 2: @import 'color';\A 3: @import 'fonts';\A 4: @import 'mixin';\A 5: @import 'header';\A 6: @import 'color-sec';\A 7: @import 'verde';\A 8: @import 'precios';\A 9: @import 'contacto';\A 10: @import 'footer';\A 11: @import 'about-us';"; }
+  content: "Error: Undefined mixin 'linea'.\A         on line 14 of src/sass/_precios.scss, in `linea'\A         from line 14 of src/sass/_precios.scss\A         from line 8 of src/sass/main.scss\A \A 9: @import 'contacto';\A 10: @import 'footer';\A 11: @import 'about-us';"; }
