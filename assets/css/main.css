@@ -1,3 +1,9 @@
+
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -97,3 +103,4 @@
     margin-left: 1%; }
 
 /*# sourceMappingURL=main.css.map */
+
