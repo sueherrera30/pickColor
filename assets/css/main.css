@@ -8,11 +8,12 @@
   max-width: 1200px;
   margin: 0 auto; }
 
-.templateRow, .row:before, .contacto:before, .row:after, .contacto:after {
+
+.templateRow, .row:before, .bloque-precios__ofertas:before, .contacto:before, .row:after, .bloque-precios__ofertas:after, .contacto:after {
   content: " ";
   display: table; }
 
-.row:after, .contacto:after {
+.row:after, .bloque-precios__ofertas:after, .contacto:after {
   clear: both; }
 
 [class*="col-"] {
@@ -234,7 +235,6 @@
     min-height: 10vh;
     padding-top: 4em;
     padding-bottom: 4em; }
-
 .bloque-ofertas, .bloque-ofertas__elemento-oferta--precio {
   display: flex;
   justify-content: space-between;
@@ -358,11 +358,7 @@
     color: white; }
   .bloque-about-us__linea {
     padding: 0.03em;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    background-color: white; 
     margin: 1%; }
   .bloque-about-us__texto {
     color: white;
@@ -375,5 +371,67 @@
   .contenedor-about-Img__img {
     width: 100%;
     height: 100%; }
+.footer {
+  width: 100%;
+  height: 380px;
+  background-image: url(../img/img-divider-img.jpg);
+  background-repeat: round;
+  background-position: bottom;
+  background-size: cover; }
+  .footer .iconos {
+    margin-left: 20.5%; }
+  .footer span img {
+    width: 10%;
+    height: 70px;
+    margin-top: 18%;
+    margin-left: 1%; }
+
+.info-footer {
+  width: 100%;
+  height: 190px;
+  background-color: #27ad60; }
+  .info-footer h6 {
+    font-size: 1.2em;
+    color: white;
+    text-align: center; }
+  .info-footer ul {
+    list-style: none;
+    color: white;
+    text-align: center;
+    margin-top: 7%; }
+    .info-footer ul li {
+      margin-top: 4%; }
+
+.info-footer hr {
+  width: 50px;
+  margin-left: 39%;
+  margin-top: -2%;
+  margin-bottom: 6%; }
+.info-footer span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #443e44;
+  margin-left: -50%;
+  margin-top: 6%;
+  color: orange;
+  text-align: center; }
+  .info-footer span i {
+    margin-top: 10%; }
+.info-footer input {
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+  top: -8%; }
+
+button {
+  width: 120px;
+  height: 40px;
+  margin-left: 25%;
+  margin-top: 6%;
+  color: white;
+  border-radius: 8%;
+  background-color: #443e44; }
+
 
 /*# sourceMappingURL=main.css.map */
