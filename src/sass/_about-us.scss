@@ -1,0 +1,71 @@
+
+.bloque-about-us{
+background-color: $azul;
+	
+	&__titulo{
+	    font-family: $roboto;
+		font-size: 2em;	
+		text-align:center;
+		color: $blanco;
+	}
+	
+	&__linea{
+		@include linea;
+		@extend .col-2;
+		@include flex-column;
+        align-items: center;
+		margin: 1%;
+	}
+	
+	&__texto{
+	  color: $blanco;
+	  padding: 5%;
+	  font-family: $roboto;
+	}
+}
+   
+   .contenedor-about-Img{
+	width:40%;
+	height: 40%;
+	   
+	&__img{
+	width:100%;
+	height: 100%;
+	}
+
+ }
+
+.contenedor-barra{
+	padding: 2%;
+	&__base{
+		background-color: darkgray;
+		height: 8px;
+		width: 250px;
+	&--rellenoHTML{
+		background-color:$naranja;
+		height: 8px;
+		width: 240px;
+		}
+	&--rellenoCSS{
+		background-color:$naranja;
+		height: 8px;
+		width: 230px;
+		}
+	&--rellenoJS{
+		background-color:$naranja;
+		height: 8px;
+		width: 140px;
+		}
+	&--rellenoPHP{
+		background-color:$naranja;
+		height: 8px;
+		width: 170px;
+		}
+		&--rellenoPHOTO{
+		background-color:$naranja;
+		height: 8px;
+		width: 200px;
+		}
+	}
+	
+}
