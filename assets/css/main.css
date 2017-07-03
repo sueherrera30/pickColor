@@ -254,26 +254,26 @@
   .contenedor-barra__base {
     background-color: darkgray;
     height: 8px;
-    width: 250px; }
+    width: 350px; }
     .contenedor-barra__base--rellenoHTML {
       background-color: #e67e22;
       height: 8px;
-      width: 240px; }
+      width: 340px; }
     .contenedor-barra__base--rellenoCSS {
       background-color: #e67e22;
       height: 8px;
-      width: 230px; }
+      width: 330px; }
     .contenedor-barra__base--rellenoJS {
       background-color: #e67e22;
       height: 8px;
-      width: 140px; }
+      width: 240px; }
     .contenedor-barra__base--rellenoPHP {
       background-color: #e67e22;
       height: 8px;
-      width: 170px; }
+      width: 270px; }
     .contenedor-barra__base--rellenoPHOTO {
       background-color: #e67e22;
       height: 8px;
-      width: 200px; }
+      width: 300px; }
 
 /*# sourceMappingURL=main.css.map */
