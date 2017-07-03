@@ -1,28 +1,36 @@
 /*
-Error: Undefined mixin 'flex-column'.
-        on line 4 of src/sass/_precios.scss, in `flex-column'
-        from line 4 of src/sass/_precios.scss
-        from line 7 of src/sass/main.scss
+Error: Undefined variable: "$blanco".
+        on line 7 of src/sass/_precios.scss
+        from line 8 of src/sass/main.scss
 
-1: @import 'columnas';
 2: @import 'color';
 3: @import 'fonts';
-4: @import 'header';
-5: @import 'color-sec';
-6: @import 'verde';
-7: @import 'precios';
-8: @import 'contacto';
-9: @import 'footer';
+4: @import 'mixin';
+5: @import 'header';
+6: @import 'color-sec';
+7: @import 'verde';
+8: @import 'precios';
+9: @import 'contacto';
+10: @import 'footer';
+11: @import 'about-us';
 
 Backtrace:
-src/sass/_precios.scss:4:in `flex-column'
-src/sass/_precios.scss:4
-src/sass/main.scss:7
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:98:in `block in with_mixin'
+src/sass/_precios.scss:7
+src/sass/main.scss:8
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/script/tree/node.rb:58:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:98:in `with_mixin'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
@@ -84,4 +92,4 @@ src/sass/main.scss:7
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'flex-column'.\A         on line 4 of src/sass/_precios.scss, in `flex-column'\A         from line 4 of src/sass/_precios.scss\A         from line 7 of src/sass/main.scss\A \A 1: @import 'columnas';\A 2: @import 'color';\A 3: @import 'fonts';\A 4: @import 'header';\A 5: @import 'color-sec';\A 6: @import 'verde';\A 7: @import 'precios';\A 8: @import 'contacto';\A 9: @import 'footer';"; }
+  content: "Error: Undefined variable: \"$blanco\".\A         on line 7 of src/sass/_precios.scss\A         from line 8 of src/sass/main.scss\A \A 2: @import 'color';\A 3: @import 'fonts';\A 4: @import 'mixin';\A 5: @import 'header';\A 6: @import 'color-sec';\A 7: @import 'verde';\A 8: @import 'precios';\A 9: @import 'contacto';\A 10: @import 'footer';\A 11: @import 'about-us';"; }
